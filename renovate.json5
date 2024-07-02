@@ -31,7 +31,8 @@
     {
       "description": "Automerge all patch or pinning updates",
       "matchUpdateTypes": ["patch", "digest", "pinDigest"],
-      "automerge": true
+      "automerge": true,
+      "automergeType": "branch"
     },
   ],
 }
